@@ -7,7 +7,7 @@ const Header = () => {
     <div className='header'>
         <h1>Etherium Blockc Explorer</h1>
         <button className='btn' onClick={() => {
-            navigate('/');
+            navigate('/blockexplorer-1');
         }}>Home</button> 
     </div>
   )
