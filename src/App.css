@@ -2,37 +2,108 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 90vw;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+
+  border: 1px solid steelblue;
+  /* padding: 10px 30px; */
+  border-radius: 5px;
+
+  background-color: gainsboro;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* --- */
+h4 {
+  margin: 10px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  margin: 10px 10px;
+}
+
+hr {
+  color: gray;
+  margin: 0 20px;
+  border: 1px solid;
+  border-radius: 2px;
+}
+
+/* --- */
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:active{
+  color: black;
+}
+
+/* --- */
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  background-color: gainsboro;
 }
 
-.App-link {
-  color: #61dafb;
+/* --- */
+.block {
+  margin: 0 20px;
+  padding: 2px 10px;
+  border-radius: 5px;
+
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.block:hover {
+  background-color: lightgray;
+}
+
+/* --- */
+.transactions {
+  width: 80vw;
+  margin: 10px auto;
+  border: 1px solid;
+  border-radius: 5px;
+
+  max-height: 500px;
+
+  text-align: center;
+
+  overflow: auto;
+}
+
+/* --- */
+.info {
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* --- */
+.foot {
+  display: flex;
+  justify-content: right;
+}
+
+.btn{
+  margin: 10px;
+  padding: 10px;
+
+  max-height: 40px;
+
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: lightgray;
+}
+
+/* --- */
+.t-details{
+  overflow: hidden;
 }
