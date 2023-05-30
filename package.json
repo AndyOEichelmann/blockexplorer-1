@@ -1,7 +1,7 @@
 {
   "name": "blockexplorer",
   "version": "0.1.0",
-  "homepage": "https://github.com/blockexplorer-1",
+  "homepage": "https://github.com/AndyOEichelmann/blockexplorer_deplyed",
   "private": true,
   "dependencies": {
     "alchemy-sdk": "^2.2.3",
