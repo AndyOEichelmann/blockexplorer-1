@@ -7,7 +7,7 @@ const Blocks = ({ blocks, convTimestamp, selectBlock }) => {
       {blocks.map((block) => (
         <div key={block.number}>
           <hr />
-          <Link to={`/block/${block.number}`} className='link'>
+          <Link to={`/blockexplorer-1/block/${block.number}`} className='link'>
             <div className="block" onClick={() => selectBlock(block.number)} >
               <h4>Block Number: {block.number}</h4>
               <p>{convTimestamp(block.timestamp)}</p>

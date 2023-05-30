@@ -72,17 +72,17 @@ function App() {
       <Header />
         <div className="container">
           <Routes>
-            <Route path='/' element={
+            <Route path='/blockexplorer-1' element={
               <>
                 <Blocks blocks={latestBlocks} convTimestamp={convertTimestamp} selectBlock={selectBlock} />
               </>
             } />
-            <Route path='/block/:id' element={
+            <Route path='/blockexplorer-1/block/:id' element={
                 <>
                   <Block block={showBlock} convTimestamp={convertTimestamp} setTransaction={setShowTransaction}/>
                 </>
             }/>
-            <Route path='/transaction/:transactionHash' element={
+            <Route path='/blockexplorer-1/transaction/:transactionHash' element={
               <>
                 <TransactionDeteils transaction={showTransaction} convTimestamp={convertTimestamp} />
               </>

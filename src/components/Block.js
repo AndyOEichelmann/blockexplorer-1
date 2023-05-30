@@ -6,7 +6,6 @@ const Block = ({ block, convTimestamp, setTransaction }) => {
 
   return (
     <>
-      {/* <>{console.log(block)}</> */}
       <h3>Block: {block.number}</h3>
     <div className='info'>
       <p>Height: {block.number}</p>
